@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<root>
+    <item>
+        <name>KBT Race2</name>
+
+        <item>
+            <name>Volume Control</name>
+            <appendix>Fn + F1 to Mute Key</appendix>
+            <appendix>Fn + F2 to Volume Down Key</appendix>
+            <appendix>Fn + F3 to Volume Up Key</appendix>
+            <identifier>kbt_race2.volume_control</identifier>
+            <autogen>__KeyToKey__ KeyCode::F1, ModifierFlag::FN, ConsumerKeyCode::VOLUME_MUTE</autogen>
+            <autogen>__KeyToKey__ KeyCode::F2, ModifierFlag::FN, ConsumerKeyCode::VOLUME_DOWN</autogen>
+            <autogen>__KeyToKey__ KeyCode::F3, ModifierFlag::FN, ConsumerKeyCode::VOLUME_UP</autogen>
+        </item>
+
+        <item>
+            <name>Media Control</name>
+            <appendix>Fn + F4 to Music Prev Key</appendix>
+            <appendix>Fn + F5 to Music Play Key</appendix>
+            <appendix>Fn + F6 to Music Next Key</appendix>
+            <identifier>kbt_race2.media_control</identifier>
+            <autogen>__KeyToKey__ KeyCode::F4, ModifierFlag::FN, ConsumerKeyCode::MUSIC_PREV</autogen>
+            <autogen>__KeyToKey__ KeyCode::F5, ModifierFlag::FN, ConsumerKeyCode::MUSIC_PLAY</autogen>
+            <autogen>__KeyToKey__ KeyCode::F6, ModifierFlag::FN, ConsumerKeyCode::MUSIC_NEXT</autogen>
+        </item>
+
+        <item>
+            <name>F11 and F12</name>
+            <appendix>Fn + F9 to F11</appendix>
+            <appendix>Fn + F10 to F12</appendix>
+            <identifier>kbt_race2.f11_f12</identifier>
+            <autogen>__KeyToKey__ KeyCode::F9, ModifierFlag::FN, KeyCode::F11</autogen>
+            <autogen>__KeyToKey__ KeyCode::F10, ModifierFlag::FN, KeyCode::F12</autogen>
+        </item>
+
+
+        <item>
+          <name>Application to show LaunchPad</name>
+          <appendix>Application Key to Display Launch Pad</appendix>
+          <identifier>kbt_race2.app2launch_pad</identifier>
+          <autogen>__KeyToKey__ KeyCode::PC_APPLICATION, KeyCode::LAUNCHPAD</autogen>
+        </item>
+
+        <item>
+          <name>Power Control</name>
+          <appendix>Ctrl+Shift+Del to lock screen</appendix>
+          <identifier>kbt_race2.power_control</identifier>
+          <autogen>__KeyToKey__ KeyCode::FORWARD_DELETE, ModifierFlag::CONTROL_L, ModifierFlag::SHIFT_L, KeyCode::VK_OPEN_URL_SHELL_sleep</autogen>
+        </item>
+    </item>
+
+    <item>
+      <name>Home and End Key</name>
+        <item>
+            <name>Home End to Line Head and Line Tail</name>
+            <appendix>Home to Cmd + Left</appendix>
+            <appendix>End to Cmd + Right</appendix>
+            <identifier>kbt_race2.home_end</identifier>
+            <autogen>__KeyToKey__ KeyCode::HOME, KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L</autogen>
+            <autogen>__KeyToKey__ KeyCode::END, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L</autogen>
+        </item>
+    </item>
+
+    <item>
+        <name>──────────────────────────────</name>
+    </item>
+</root>
